@@ -6,24 +6,24 @@
 print(not True) # False
 print(not False) # True
 
-# Operadores in e not in
-# Strings são iteráveis
-#  0 1 2 3 4 5
-#  O t á v i o
+# Operators in and not in
+# Strings are iterable
+#0 1 2 3 4 5
+# Tá v i o
 # -6-5-4-3-2-1
-# nome = 'Otávio'
-# print(nome[2])
-# print(nome[-4])
-# print('vio' in nome)
-# print('zero' in nome)
+# name = 'Otávio'
+# print(name[2])
+# print(name[-4])
+# print('vio' in name)
+# print('zero' in name)
 # print(10 * '-')
-# print('vio' not in nome)
-# print('zero' not in nome)
+# print('vio' not in name)
+# print('zero' not in name)
 
-nome = input('Digite seu nome: ')
-encontrar = input('Digite o que deseja encontrar: ')
+name = input('Enter your name: ')
+find = input('Enter what you want to find: ')
 
-if encontrar in nome:
-    print(f'{encontrar} está em {nome}')
+if find in name:
+    print(f'{find} is in {name}')
 else:
-    print(f'{encontrar} não está em {nome}')
+    print(f'{find} is not in {name}')
