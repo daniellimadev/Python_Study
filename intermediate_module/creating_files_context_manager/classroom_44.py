@@ -58,7 +58,7 @@ file_path += 'clasroom_44.txt'
 #     print(file.read())
 
 
-with open(file_path, 'w+') as file:
+with open(file_path, 'w+', encoding='utf-8') as file:
     file.write('Atenção\n')
     file.write('Line 1\n')
     file.write('Line 2\n')
