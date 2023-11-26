@@ -19,3 +19,18 @@
 # Linux and Mac: source venv/bin/activate
 # Deactivate: deactivate
 #
+# pip - installing packages and libraries
+# Install latest version:
+# pip install package_name
+# Install accurate version
+# (there are other forms also not mentioned)
+# pip install package_name==0.0.0
+# Uninstall package
+# pip uninstall package_name
+# Freeze (see packages)
+# pip freeze
+#
+# Creating and using a requirements.txt
+# pip freeze > requirements.txt
+# Installing everything from requirements.txt
+# pip install -r requirements.txt
