@@ -64,22 +64,33 @@ tasks_redo = []
 while True:
     print('Commands: list, undo and redo')
     task = input('Enter a task or command: ')
+    
+    commands = {
+        'list': lambda: list(tasks),
+        'undo': lambda: undo(tasks, tasks_redo),
+        'redo': lambda: redo(tasks, tasks_redo),
+        'clear': lambda: os.system('clear'),
+        'add': lambda: add(task, tasks),
+    }
+    command = commands.get(task) if commands.get(task) is not None else \
+        commands['add']
+    command()
 
-    if task == 'list':
-        list(tasks)
-        continue
-    elif task == 'undo':
-        undo(tasks, tasks_redo)
-        list(tasks)
-        continue
-    elif task == 'redo':
-        redo(tasks, tasks_redo)
-        list(tasks)
-        continue
-    elif task == 'clear':
-        os.system('clear')
-        continue
-    else:
-        add(task, tasks)
-        list(tasks)
-        continue
+    # if task == 'list':
+    #     list(tasks)
+    #     continue
+    # elif task == 'undo':
+    #     undo(tasks, tasks_redo)
+    #     list(tasks)
+    #     continue
+    # elif task == 'redo':
+    #     redo(tasks, tasks_redo)
+    #     list(tasks)
+    #     continue
+    # elif task == 'clear':
+    #     os.system('clear')
+    #     continue
+    # else:
+    #     add(task, tasks)
+    #     list(tasks)
+    #     continue
