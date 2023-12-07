@@ -73,5 +73,5 @@ Folder in the repository: [advanced_module](https://github.com/daniellimadev/Pyt
 
 | Study                                              | File                                                                                                                           |
 |:---------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------| 
-| Class                                              | [advanced_module/Object_Oriented_Programming/class](https://github.com/daniellimadev/Python_Study/tree/main/advanced_module/class)                   |
-| Exercises                                          | [advanced_module/Object_Oriented_Programming/exercises](https://github.com/daniellimadev/Python_Study/tree/main/advanced_module/exercises)                   |
+| Class                                              | [advanced_module/Object_Oriented_Programming/class](https://github.com/daniellimadev/Python_Study/tree/main/advanced_module/Object_Oriented_Programming/class)                   |
+| Exercises                                          | [advanced_module/Object_Oriented_Programming/exercises](https://github.com/daniellimadev/Python_Study/tree/main/advanced_module/Object_Oriented_Programming/exercises)                   |
