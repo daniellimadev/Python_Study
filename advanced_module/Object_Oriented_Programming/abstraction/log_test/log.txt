@@ -1,0 +1,9 @@
+Success: That's cool (LogFileMixin)
+Error: anything (LogFileMixin)
+Success: That's cool (LogFileMixin)
+Error: anything (LogFileMixin)
+Success: That's cool (LogFileMixin)
+Error: anything (LogFileMixin)
+Success: That's cool (LogFileMixin)
+ 2 changes: 1 addition & 1 deletion2  
+log_test/main.py
