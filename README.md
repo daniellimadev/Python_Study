@@ -71,7 +71,10 @@ Folder in the repository: [intermediate_module](https://github.com/daniellimadev
 ### Study: Practical advanced to the Python Programming Language
 Folder in the repository: [advanced_module](https://github.com/daniellimadev/Python_Study/tree/main/advanced_module)
 
-| Study                                              | File                                                                                                                           |
-|:---------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------| 
-| Class                                              | [advanced_module/Object_Oriented_Programming/class](https://github.com/daniellimadev/Python_Study/tree/main/advanced_module/Object_Oriented_Programming/class)                   |
-| Exercises                                          | [advanced_module/Object_Oriented_Programming/exercises](https://github.com/daniellimadev/Python_Study/tree/main/advanced_module/Object_Oriented_Programming/exercises)                   |
+| Study                                              | File                                                                                                                                                                                                |
+|:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| Class                                              | [advanced_module/Object_Oriented_Programming/class](https://github.com/daniellimadev/Python_Study/tree/main/advanced_module/Object_Oriented_Programming/class)                                      |
+| Encapsulation                                      | [advanced_module/Object_Oriented_Programming/encapsulation](https://github.com/daniellimadev/Python_Study/tree/main/advanced_module/Object_Oriented_Programming/encapsulation)                      |
+| Heritage                                           | [advanced_module/Object_Oriented_Programming/heritage](https://github.com/daniellimadev/Python_Study/tree/main/advanced_module/Object_Oriented_Programming/heritage)                                |
+| Abrstraction                                       | [advanced_module/Object_Oriented_Programming/abstraction](https://github.com/daniellimadev/Python_Study/tree/main/advanced_module/Object_Oriented_Programming/abstraction)                          |
+| Exercises                                          | [advanced_module/Object_Oriented_Programming/exercises](https://github.com/daniellimadev/Python_Study/tree/main/advanced_module/Object_Oriented_Programming/exercises)                              |
